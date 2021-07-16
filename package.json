@@ -9,15 +9,15 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "packl": "dist/src/index.js"
+    "packl": "./dist/src/cli.js"
   },
   "files": [
     "dist",
     "README.md"
   ],
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "rm -rf dist && tsc",
+    "watch": "rm -rf dist && tsc --watch"
   },
   "dependencies": {
     "@babel/core": "^7.14.6",
