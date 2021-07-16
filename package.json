@@ -9,7 +9,7 @@
   "license": "MIT",
   "private": false,
   "bin": {
-    "packl": "dist/index.js"
+    "packl": "dist/src/index.js"
   },
   "files": [
     "dist",
