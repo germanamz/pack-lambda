@@ -11,6 +11,10 @@
   "bin": {
     "packl": "dist/index.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch"
