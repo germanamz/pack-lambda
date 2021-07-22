@@ -6,7 +6,7 @@ Effortless lambda packaging for nodejs.
 This package its meant to be used as a *cli* tool.
 
 ```shell
-npm i -g pack-lambda
+npm i -g @germanamz/pack-lambda
 ```
 
 ## CLI usage
@@ -18,9 +18,3 @@ Supported cli options ([name]?: [type] = [default])
 * typescript?: boolean = false // uses typescript as the entry
 * out?: string = 'index.js' // defined the output filename
 * entry?: string = 'index.[tj]s' // Depending on *typescript* flag
-
-## Node usage
-
-```typescript
-import {}
-```
